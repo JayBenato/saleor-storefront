@@ -4,8 +4,11 @@
   &__hero {
     background-color: $blue-overlay;
     background-blend-mode: multiply;
+    //background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
     background-size: cover;
-    background-position: center;
+    -webkit-filter: blur(0px);
+    height: 100vh;
+    background-position: top center;
     text-align: center;
     padding: 12rem 0;
 
@@ -33,7 +36,7 @@
     }
 
     &__title {
-      background-color: $white;
+      //background-color: $white;
       display: inline-block;
       transform: skew(45deg);
       padding: $spacer $spacer * 3;
@@ -47,11 +50,11 @@
       h1 {
         display: inline-block;
         transform: skew(-45deg);
-        font-weight: $bold-font-weight;
+        font-weight: $button-font-weight;
         text-transform: uppercase;
-        color: $blue;
+        color: whitesmoke;
         font-size: $h1-font-size;
-        font-weight: 900;
+        font-weight: 700;
 
         @media (max-width: $small-screen) {
           font-size: $h4-font-size;

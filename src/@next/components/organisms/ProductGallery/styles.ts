@@ -75,8 +75,8 @@ export const ThumbnailList = styled.div`
 
 export const Preview = styled.div`
   grid-area: preview;
-  width: auto;
-  max-height: 560px;
+  width: cover;
+  // max-height: 720px;
   overflow: hidden;
   img {
     width: 100%;
