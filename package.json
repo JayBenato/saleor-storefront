@@ -1,9 +1,9 @@
 {
-  "name": "saleor-site",
+  "name": "todajoia-storefront",
   "version": "2.11.0",
   "private": true,
-  "author": "Mirumee",
-  "homepage": "https://getsaleor.com/",
+  "author": "Benato J.",
+  "homepage": "https://todajoia.com",
   "main": "dist/index.js",
   "browserslist": "last 2 versions",
   "dependencies": {

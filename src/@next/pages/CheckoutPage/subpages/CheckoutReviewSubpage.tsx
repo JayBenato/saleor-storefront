@@ -67,6 +67,9 @@ const CheckoutReviewSubpageWithRef: RefForwardingComponent<
         )?.label
       }`;
     }
+    if (payment?.gateway === "todajoia.payments.OnDeliveryPayment") {
+      return `Contrassegno`;
+    }
     if (payment?.gateway === "mirumee.payments.adyen") {
       return `Adyen payments`;
     }

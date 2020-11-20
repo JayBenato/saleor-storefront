@@ -4,13 +4,16 @@ import { generatePageUrl } from "./utils";
 
 export const BASE_URL = "/";
 export const PRODUCTS_PER_PAGE = 6;
-export const SUPPORT_EMAIL = "support@example.com";
+export const SUPPORT_EMAIL = "info@todjaoia.com";
 export const PROVIDERS = {
   BRAINTREE: {
     label: "Braintree",
   },
   DUMMY: {
     label: "Dummy",
+  },
+  ON_DELIVERY: {
+    label: "OnDelivery",
   },
   STRIPE: {
     label: "Stripe",
@@ -42,31 +45,30 @@ export const STATIC_PAGES = [
 export const SOCIAL_MEDIA = [
   {
     ariaLabel: "facebook",
-    href: "https://www.facebook.com/mirumeelabs/",
+    href: "https://www.facebook.com/toda.joia.14/",
     path: require("../images/facebook-icon.svg"),
   },
   {
     ariaLabel: "instagram",
-    href: "https://www.instagram.com/mirumeelabs/",
+    href: "https://www.instagram.com/todajoia.fitness/?hl=en",
     path: require("../images/instagram-icon.svg"),
   },
-  {
-    ariaLabel: "twitter",
-    href: "https://twitter.com/getsaleor",
-    path: require("../images/twitter-icon.svg"),
-  },
+  // {
+  //   ariaLabel: "twitter",
+  //   href: "https://twitter.com/getsaleor",
+  //   path: require("../images/twitter-icon.svg"),
+  // },
   {
     ariaLabel: "youtube",
-    href: "https://www.youtube.com/channel/UCg_ptb-U75e7BprLCGS4s1g/videos",
+    href: "https://www.youtube.com/rolamocaoficial",
     path: require("../images/youtube-icon.svg"),
   },
 ];
 export const META_DEFAULTS = {
   custom: [],
-  description:
-    "Open-source PWA storefront built with Saleor's e-commerce GraphQL API. Written with React and TypeScript.",
+  description: "TodaJoia PWA storefront",
   image: `${window.location.origin}${require("../images/logo.svg")}`,
-  title: "Demo PWA Storefront – Saleor Commerce",
+  title: "TodaJoia PWA Storefront",
   type: "website",
   url: window.location.origin,
 };

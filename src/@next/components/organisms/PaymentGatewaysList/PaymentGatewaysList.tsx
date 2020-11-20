@@ -1,3 +1,4 @@
+import { OnDeliveryPaymentGateway } from "@components/organisms/OnDeliveryPaymentGateway";
 import React from "react";
 
 import { ErrorMessage, Radio } from "@components/atoms";
@@ -49,7 +50,7 @@ const PaymentGatewaysList: React.FC<IProps> = ({
                     customLabel
                   >
                     <span data-test="checkoutPaymentGatewayBraintreeName">
-                      {name}
+                      Credit Card
                     </span>
                   </Radio>
                 </S.Tile>
@@ -167,6 +168,35 @@ const PaymentGatewaysList: React.FC<IProps> = ({
               </div>
             );
 
+          case PROVIDERS.ON_DELIVERY.label:
+            return (
+              <div key={index}>
+                <S.Tile checked={checked}>
+                  <Radio
+                    data-test="checkoutPaymentGatewayDummyInput"
+                    name="payment-method"
+                    value="dummy"
+                    checked={checked}
+                    onChange={() =>
+                      selectPaymentGateway && selectPaymentGateway(id)
+                    }
+                    customLabel
+                  >
+                    <span data-test="checkoutPaymentGatewayDummyName">
+                      Contrassegno
+                    </span>
+                  </Radio>
+                </S.Tile>
+                {checked && (
+                  <OnDeliveryPaymentGateway
+                    formRef={formRef}
+                    formId={formId}
+                    processPayment={token => processPayment(id, token)}
+                    initialStatus={selectedPaymentGatewayToken}
+                  />
+                )}
+              </div>
+            );
           default:
             return null;
         }
