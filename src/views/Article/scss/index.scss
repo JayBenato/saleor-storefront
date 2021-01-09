@@ -31,7 +31,7 @@
         transform: skew(-45deg);
         font-weight: $bold-font-weight;
         text-transform: uppercase;
-        color: $blue;
+        color: $black;
         font-size: 8vw;
         font-weight: 900;
 
@@ -106,7 +106,7 @@
           width: 0.375rem;
           height: 0.375rem;
           border-radius: 50%;
-          background-color: $darkGreen;
+          background-color: $black;
         }
         &:last-child {
           margin-bottom: 0;

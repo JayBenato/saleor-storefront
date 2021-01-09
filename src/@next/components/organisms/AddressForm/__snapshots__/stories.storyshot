@@ -515,7 +515,7 @@ exports[`Storyshots @components/organisms/AddressForm default 1`] = `
                   >
                     <path
                       d="M16 29.856l-15.999-27.712h31.999l-15.999 27.712z"
-                      fill="#21125E"
+                      fill="#ff9b42ff"
                     />
                   </svg>
                 </div>
@@ -1138,7 +1138,7 @@ exports[`Storyshots @components/organisms/AddressForm with errors 1`] = `
                   >
                     <path
                       d="M16 29.856l-15.999-27.712h31.999l-15.999 27.712z"
-                      fill="#21125E"
+                      fill="#ff9b42ff"
                     />
                   </svg>
                 </div>
@@ -1731,7 +1731,7 @@ exports[`Storyshots @components/organisms/AddressForm with partial data 1`] = `
                   >
                     <path
                       d="M16 29.856l-15.999-27.712h31.999l-15.999 27.712z"
-                      fill="#21125E"
+                      fill="#ff9b42ff"
                     />
                   </svg>
                 </div>

@@ -40,10 +40,10 @@ exports[`Storyshots @components/molecules/ProductDescription default 1`] = `
   -moz-letter-spacing: 0.02em;
   -ms-letter-spacing: 0.02em;
   letter-spacing: 0.02em;
-  color: #06847B;
+  color: #ff9b42ff;
   border-bottom-width: 4px;
   border-bottom-style: solid;
-  border-bottom-color: #06847B;
+  border-bottom-color: #ff9b42ff;
   padding-bottom: 25px;
   margin-right: 60px;
 }

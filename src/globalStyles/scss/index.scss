@@ -119,7 +119,7 @@ body {
 
       &:checked ~ span {
         &:before {
-          background-color: $blue;
+          background-color: $light-grey;
         }
       }
     }
@@ -130,7 +130,7 @@ body {
       &:before {
         background-color: $white;
         border-radius: 0.2rem;
-        border: 1px solid $blue;
+        border: 1px solid $light-grey;
         content: "";
         display: block;
         height: 1rem;
@@ -143,5 +143,5 @@ body {
 }
 
 .form-error {
-  color: $rose;
+  color: $light-red;
 }

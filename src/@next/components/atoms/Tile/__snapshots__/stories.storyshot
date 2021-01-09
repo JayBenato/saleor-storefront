@@ -198,7 +198,7 @@ exports[`Storyshots @components/atoms/Tile with hover 1`] = `
 
 .c1:hover {
   cursor: pointer;
-  border-color: #190c4e;
+  border-color: #ff9b42ff;
 }
 
 .c2 {

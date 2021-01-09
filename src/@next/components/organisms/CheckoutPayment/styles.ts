@@ -27,7 +27,7 @@ export const Tile = styled.label<{ checked: boolean }>`
   display: block;
   background-color: ${props => props.theme.colors.light};
   padding: 20px;
-  ${props => props.checked && `border: 2px solid #21125E;`}
+  ${props => props.checked && `border: 2px solid #ff9b42ff;`}
   font-size: ${props => props.theme.typography.smallFontSize};
   cursor: pointer;
 `;

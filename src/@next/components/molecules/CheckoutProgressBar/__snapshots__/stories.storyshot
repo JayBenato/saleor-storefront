@@ -22,7 +22,7 @@ exports[`Storyshots @components/molecules/CheckoutProgressBar default 1`] = `
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  border: 6px solid #06847B;
+  border: 6px solid #ff9b42ff;
 }
 
 .c9 {
@@ -101,7 +101,7 @@ exports[`Storyshots @components/molecules/CheckoutProgressBar default 1`] = `
   z-index: -1;
   width: 100%;
   height: 4px;
-  background-color: #06847B;
+  background-color: #ff9b42ff;
 }
 
 .c8 {

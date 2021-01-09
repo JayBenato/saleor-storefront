@@ -4,7 +4,7 @@
   align-items: center;
   align-items: stretch;
   background-color: $white;
-  border-bottom: 1px solid $gray-light;
+  border-bottom: 1px solid $white;
   display: flex;
   flex-direction: row;
   height: 3.55rem;
@@ -62,16 +62,18 @@
       transition: 0.3s;
 
       &:hover {
-        color: $turquoise;
+        color: $dark-grey;
       }
     }
   }
 
   &__hamburger {
-    border-right: 1px solid $gray-light;
+    border-right: 1px solid $white;
     cursor: pointer;
     padding: $spacer;
-
+    svg * {
+      fill: $black;
+    }
     &--hover {
       display: none;
     }
@@ -83,6 +85,9 @@
 
       .main-menu__hamburger--hover {
         display: block;
+        svg * {
+          fill: $light-blue;
+        }
       }
     }
 
@@ -109,7 +114,7 @@
 
     &:hover {
       svg * {
-        fill: $turquoise;
+        fill: $light-blue;
       }
     }
 
@@ -125,7 +130,7 @@
       position: absolute;
       top: -0.3rem;
       right: 0.6rem;
-      background-color: $blue;
+      background-color: $black;
       border-radius: 1rem;
       padding: 0 0.3rem;
       min-width: 1rem;
@@ -140,7 +145,7 @@
 
   &__user {
     &--active * {
-      fill: $turquoise;
+      fill: $black;
       fill-rule: inherit;
     }
   }
@@ -154,7 +159,7 @@
       margin: 0 auto;
 
       &:hover {
-        color: $gray;
+        color: $light-blue;
       }
 
       &:not(:last-of-type) {
@@ -189,9 +194,9 @@
     }
 
     &:hover {
-      color: $turquoise;
+      color: $light-blue;
       svg * {
-        fill: $turquoise;
+        fill: $light-blue;
       }
     }
 
@@ -214,7 +219,7 @@
     padding: 0 1.5rem;
 
     &--active {
-      background-color: $turquoise-light;
+      background-color: $light-blue;
     }
 
     & > li:first-child {
@@ -261,7 +266,7 @@
           position: relative;
 
           &:before {
-            background-color: $turquoise-light;
+            background-color: $dark-grey;
             content: "";
             height: 1px;
             left: 0;

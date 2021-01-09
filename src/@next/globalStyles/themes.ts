@@ -17,8 +17,8 @@ export const defaultTheme = {
     },
     colors: {
       primary: {
-        activeBackground: C.theme.primaryDark,
-        background: C.theme.primary,
+        activeBackground: C.theme.primaryLight,
+        background: C.theme.trueBlack,
         color: C.white,
         hoverBackground: C.theme.primaryDark,
         hoverColor: C.white,
@@ -148,7 +148,7 @@ export const defaultTheme = {
     spacer: `${C.spacer}rem`,
   },
   tile: {
-    backgroundColor: C.grayLight,
+    backgroundColor: C.lightGrey,
     divisionLine: C.grayMedium,
     hoverBorder: C.blueDark,
   },

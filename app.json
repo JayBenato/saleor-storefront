@@ -7,7 +7,7 @@
   "env": {
     "API_URI": {
       "description": "URI of a running instance of TodaJoia GraphQL API",
-      "value": "http://ec2-15-161-219-112.eu-south-1.compute.amazonaws.com:8000/graphql/"
+      "value": "https://api.todajoia.com/graphql/"
     }
   },
   "buildpacks": [

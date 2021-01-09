@@ -3,19 +3,19 @@ import { css } from "styled-components";
 
 const textProps = css`
   font-size: ${props => props.theme.typography.baseFontSize};
-  margin: 0 0 0.5rem 0;
-  text-align: left;
+  margin-top: 0.5rem;
+  text-align: center;
 `;
 
 export const Wrapper = styled.div`
-  background: ${props => props.theme.colors.light};
+  background: ${props => props.theme.colors.white};
   padding: 2.5rem;
   text-align: center;
-  max-height: 30rem;
+  max-height: 40rem;
   transition: 0.3s;
 
   :hover {
-    background-color: ${props => props.theme.colors.hoverLightBackground};
+    background-color: ${props => props.theme.colors.secondaryLight};
   }
 
   ${media.largeScreen`
@@ -34,13 +34,14 @@ export const Price = styled.p`
 `;
 
 export const Image = styled.div`
-  width: auto;
-  height: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
 
   > img {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     max-width: 100%;
   }
 `;

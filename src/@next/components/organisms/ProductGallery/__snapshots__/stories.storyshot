@@ -33,7 +33,7 @@ exports[`Storyshots @components/organisms/ProductGallery default 1`] = `
   display: flex;
   border-width: 4px;
   border-style: solid;
-  border-color: #06847B;
+  border-color: #ff9b42ff;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -172,7 +172,7 @@ exports[`Storyshots @components/organisms/ProductGallery eight Images 1`] = `
   display: flex;
   border-width: 4px;
   border-style: solid;
-  border-color: #06847B;
+  border-color: #ff9b42ff;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -318,7 +318,7 @@ exports[`Storyshots @components/organisms/ProductGallery eight Images 1`] = `
         >
           <path
             d="M16 29.856l-15.999-27.712h31.999l-15.999 27.712z"
-            fill="#21125E"
+            fill="#ff9b42ff"
           />
         </svg>
       </div>
@@ -333,7 +333,7 @@ exports[`Storyshots @components/organisms/ProductGallery eight Images 1`] = `
         >
           <path
             d="M16 29.856l-15.999-27.712h31.999l-15.999 27.712z"
-            fill="#21125E"
+            fill="#ff9b42ff"
           />
         </svg>
       </div>
@@ -531,7 +531,7 @@ exports[`Storyshots @components/organisms/ProductGallery three Images 1`] = `
   display: flex;
   border-width: 4px;
   border-style: solid;
-  border-color: #06847B;
+  border-color: #ff9b42ff;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;

@@ -39,7 +39,7 @@ exports[`Storyshots @components/molecules/AccountMenu default 1`] = `
 .c5 {
   cursor: pointer;
   padding-bottom: 1.5rem;
-  color: #06847B;
+  color: #ff9b42ff;
 }
 
 .c1 {
