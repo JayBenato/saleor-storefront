@@ -66,9 +66,9 @@ export const SOCIAL_MEDIA = [
 ];
 export const META_DEFAULTS = {
   custom: [],
-  description: "TodaJoia PWA storefront",
+  description: "TodaJoia Fitness Fashion",
   image: `${window.location.origin}${require("../images/logo.svg")}`,
-  title: "TodaJoia PWA Storefront",
+  title: "TodaJoia Fitness Fashion",
   type: "website",
   url: window.location.origin,
 };
