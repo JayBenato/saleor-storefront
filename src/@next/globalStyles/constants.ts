@@ -37,13 +37,13 @@ export const darkGrey = "rgba(0,0,0,.54)";
 export const lightRed = "#db4e35";
 export const lightBlue = "#ff9b42ff";
 
-export const viridianGreen= "#ff9b42ff";
-export const honeydew= "#d9e5d6ff";
-export const mediumChampagne= "#eddea4ff";
-export const lightSalmon= "#f7a072ff";
-export const deepSaffron= "#ff9b42ff";
-export const spanishGray= "#9C9491ff";
-export const darkLiver= "#4A4140ff";
+export const viridianGreen = "#0fa3b1ff";
+export const honeydew = "#d9e5d6ff";
+export const mediumChampagne = "#eddea4ff";
+export const lightSalmon = "#f7a072ff";
+export const deepSaffron = "#ff9b42ff";
+export const spanishGray = "#9C9491ff";
+export const darkLiver = "#4A4140ff";
 
 // theme colors
 export const theme = {
@@ -112,60 +112,3 @@ export const xLargeScreen = 1280;
 export const largeScreen = 992;
 export const mediumScreen = 720;
 export const smallScreen = 540;
-
-
-// /* CSS HEX */
-// --viridian-green: #ff9b42ff;
-// --honeydew: #d9e5d6ff;
-// --medium-champagne: #eddea4ff;
-// --light-salmon: #f7a072ff;
-// --deep-saffron: #ff9b42ff;
-// --spanish-gray: #9C9491ff;
-// --dark-liver: #4A4140ff;
-//
-// /* CSS HSL */
-// --viridian-green: hsla(185, 84%, 38%, 1);
-// --honeydew: hsla(108, 22%, 87%, 1);
-// --medium-champagne: hsla(48, 67%, 79%, 1);
-// --light-salmon: hsla(21, 89%, 71%, 1);
-// --deep-saffron: hsla(28, 100%, 63%, 1);
-// --spanish-gray: hsla(16, 5%, 59%, 1);
-// --dark-liver: hsla(6, 7%, 27%, 1);
-//
-// /* SCSS HEX */
-// $viridian-green: #ff9b42ff;
-// $honeydew: #d9e5d6ff;
-// $medium-champagne: #eddea4ff;
-// $light-salmon: #f7a072ff;
-// $deep-saffron: #ff9b42ff;
-// $spanish-gray: #9C9491ff;
-// $dark-liver: #4A4140ff;
-//
-// /* SCSS HSL */
-// $viridian-green: hsla(185, 84%, 38%, 1);
-// $honeydew: hsla(108, 22%, 87%, 1);
-// $medium-champagne: hsla(48, 67%, 79%, 1);
-// $light-salmon: hsla(21, 89%, 71%, 1);
-// $deep-saffron: hsla(28, 100%, 63%, 1);
-// $spanish-gray: hsla(16, 5%, 59%, 1);
-// $dark-liver: hsla(6, 7%, 27%, 1);
-//
-// /* SCSS RGB */
-// $viridian-green: rgba(15, 163, 177, 1);
-// $honeydew: rgba(217, 229, 214, 1);
-// $medium-champagne: rgba(237, 222, 164, 1);
-// $light-salmon: rgba(247, 160, 114, 1);
-// $deep-saffron: rgba(255, 155, 66, 1);
-// $spanish-gray: rgba(156, 148, 145, 1);
-// $dark-liver: rgba(74, 65, 64, 1);
-//
-// /* SCSS Gradient */
-// $gradient-top: linear-gradient(0deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-right: linear-gradient(90deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-bottom: linear-gradient(180deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-left: linear-gradient(270deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-top-right: linear-gradient(45deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-bottom-right: linear-gradient(135deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-top-left: linear-gradient(225deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-bottom-left: linear-gradient(315deg, #ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
-// $gradient-radial: radial-gradient(#ff9b42ff, #d9e5d6ff, #eddea4ff, #f7a072ff, #ff9b42ff, #9C9491ff, #4A4140ff);
