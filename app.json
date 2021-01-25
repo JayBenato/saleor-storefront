@@ -2,7 +2,7 @@
   "name": "todajoia-storefront",
   "description": "A GraphQL-powered, PWA, single-page storefront application for TodaJoia",
   "website": "https://todajoia.com/",
-  "logo": "https://mirumee.com/img/opensource_saleor.jpg",
+  "logo": "https://todajoia.com/images/logo.svg",
   "keywords": ["todajoia", "e-commerce", "storefront"],
   "env": {
     "API_URI": {

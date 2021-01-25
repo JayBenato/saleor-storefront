@@ -103,7 +103,7 @@ module.exports = ({ sourceDir, distDir }) => ({
     // PWA plugins
     new WebappWebpackPlugin({
       favicons: {
-        appDescription: "Storefront for the TodaJoia e-commerce platform",
+        appDescription: "Storefront for the TodaJoia E-Commerce platform",
         appName: "TodaJoia Fitness Fashion",
         background: "#ddd",
         developerURL: null, // prevent retrieving from the nearest package.json
@@ -114,7 +114,7 @@ module.exports = ({ sourceDir, distDir }) => ({
       prefix: "images/favicons/",
     }),
     new webpack.EnvironmentPlugin({
-      API_URI: "http://localhost:8000/graphql/",
+      API_URI: "https://api.todajoia.com/graphql/",
       DEMO_MODE: false,
       GTM_ID: undefined,
       SENTRY_APM: "0",

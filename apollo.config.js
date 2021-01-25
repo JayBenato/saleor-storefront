@@ -2,7 +2,7 @@ module.exports = {
   client: {
     excludes: ["**/__tests__/**/*", "**/@sdk/**/*"],
     service: {
-      name: "todajoia",
+      name: "Toda Joia",
       url: "https://api.todajoia.com/graphql/",
     },
   },
