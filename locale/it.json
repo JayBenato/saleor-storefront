@@ -367,7 +367,7 @@
     "string": "Aggiungi un nuovo indirizzo"
   },
   "intl_dot_checkoutMessages_dot_addressNextActionName": {
-    "string": "Continua alla spedizione"
+    "string": "Informazioni sulla spedizione"
   },
   "intl_dot_checkoutMessages_dot_billingAddress": {
     "string": "INDIRIZZO DI FATTURAZIONE"
@@ -379,13 +379,13 @@
     "string": "METODO DI PAGAMENTO"
   },
   "intl_dot_checkoutMessages_dot_paymentNextActionName": {
-    "string": "Continua alla Revisione"
+    "string": "CONCLUDI L'ORDINE"
   },
   "intl_dot_checkoutMessages_dot_reviewNextActionName": {
     "string": "Invia ordine"
   },
   "intl_dot_checkoutMessages_dot_reviewOrder": {
-    "string": "REVISIONA L'ORDINE"
+    "string": "RIASSUNTO  DELL'ORDINE"
   },
   "intl_dot_checkoutMessages_dot_shippingAddress": {
     "string": "Indirizzo di Spedizione"
@@ -394,7 +394,7 @@
     "string": "METODO DI SPEDIZIONE"
   },
   "intl_dot_checkoutMessages_dot_shippingNextActionName": {
-    "string": "Continua al Pagamento"
+    "string": "Informazioni sull Pagamento"
   },
   "intl_dot_checkoutMessages_dot_stepNameAddress": {
     "string": "Indirizzo"
@@ -529,7 +529,7 @@
     "string": "Totale"
   },
   "intl_dot_commonMessages_dot_totalPrice": {
-    "string": "Total Price"
+    "string": "Prezzo Totale"
   },
   "intl_dot_commonMessages_dot_variant": {
     "string": "Variante"

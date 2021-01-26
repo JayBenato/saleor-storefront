@@ -25,3 +25,24 @@ export const TileTitle = styled.span`
 export const Price = styled.span`
   color: #ff9b42ff;
 `;
+
+export const Wrapper = styled.div``;
+
+export const SubTitle = styled.h4`
+  padding: 0.6rem 0 1.4rem 0;
+  font-size: ${props => props.theme.typography.baseFontSize};
+  font-weight: ${props => props.theme.typography.boldFontWeight};
+  color: rgba(50, 50, 50, 0.6);
+`;
+
+export const Divider = styled.div`
+  width: 100%;
+  border-bottom: 1px solid
+    ${props => props.theme.colors.baseFontColorTransparent};
+  margin: 0 0 20px 0;
+`;
+
+export const List = styled.ul`
+  list-style-type: circle;
+  margin-left: 20px;
+`;
